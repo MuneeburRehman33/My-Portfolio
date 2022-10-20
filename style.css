@@ -1,0 +1,256 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+.hero-image {
+  height: 100vh;
+  background-image: url(image/Rectangle6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  top: 0;
+}
+.header {
+  display: flex;
+  
+  /* background-color: black; */
+  color: white;
+  font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 5rem;
+}
+.shade {
+  width: 100%;
+  height: 5rem;
+  background-color: black;
+  
+  top: 0;
+  display: flex;
+  opacity: 0.5;
+  position: fixed;
+}
+.Name {
+  text-align: left;
+  padding-left: 6rem;
+  font-size: 2rem;
+  color: white;
+}
+.home {
+  text-align: left;
+  padding-left: 11rem;
+  padding-top: 1.9rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.about-us {
+  text-align: left;
+  padding-left: 6rem;
+  padding-top: 1.9rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.portfolio {
+  text-align: left;
+  padding-left: 6rem;
+  padding-top: 1.9rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.contact-us {
+  text-align: left;
+  padding-left: 6rem;
+  padding-top: 1.9rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.introduction {
+}
+.Intro-heading {
+  font-size: 4rem;
+  font-weight: 6rem;
+  color: #ff9696;
+  padding-left: 5rem;
+  padding-top: 16rem;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.paragraph {
+  color: white;
+  font-size: 1.3rem;
+  width: 45rem;
+  font-weight: 500;
+  padding-left: 5rem;
+  margin-top: 0%;
+  padding-top: 0.6rem;
+}
+.about {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+}
+.about-me {
+  padding-left: 6rem;
+  font-size: 3rem;
+  padding-top: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sec-parag {
+  width: 35rem;
+  padding-left: 6rem;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5e6472;
+}
+.mid {
+  display: flex;
+}
+.left-sect {
+  width: 50%;
+}
+.right-sect {
+  width: 50%;
+}
+.portf {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.portfolio-sect {
+  display: flex;
+  padding-top: 3rem;
+  
+  justify-content: center;
+}
+
+.card {
+    width: 23rem;
+  border-radius: 1px;
+  margin-left: 1rem;
+  height: 26rem;
+  
+  background-color: #ff9696;
+}
+.card-image {
+       width: 23rem;
+  border-radius: 1px;
+  background-size: cover;
+  height: 26rem;
+  object-fit: cover;
+}
+.view-proj {
+    font-size: larger;
+    padding-left: 7.5rem;
+    text-decoration:underline;
+    color: black;
+}
+
+
+.footer {
+  
+  margin-top: 25rem;
+  background-color: #f5f5f5;
+  height: 16.5rem;
+  margin-bottom: 0%;
+}
+.foot-flx {
+  display: flex;
+  
+}
+
+a:hover {
+  color: #ff9696;
+  
+}
+.first-card a:hover {
+  background-color: #ff9696;
+}
+
+
+
+  /* second section */
+
+  .webagencyheading {
+    font-size:xx-large; 
+    font-weight:bolder;
+    margin-top: 9rem;
+    text-align: center;
+  }
+  .screens {
+    display:flex; 
+    text-align: center;
+    padding-top: 5rem;
+    justify-content: center;
+  }
+  .project-detail {
+   width: 65rem;
+    color: #5e6472;
+    text-align: center;
+    justify-content: center;
+    padding-left: 6.5rem;
+    word-spacing: 0.1cm;
+    
+    font-family:sans-serif;
+  }
+  .button {
+    width: 11rem;
+  background-color: #ff9696;
+    border: none;
+    border-radius: 2rem;
+    height: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    colo
+    border-radius: 2rem;
+    margin-top: 1rem;
+  }
+  .about-button {
+    width: 8.5rem;
+    height: 2.4rem;
+  background-color: #ff9696;
+    margin-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+  }
+  .downl {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  .downl:hover {
+   color: white;
+}
+.about-me-page {
+    font-size: 3rem; 
+    font-weight:bolder;
+    margin-top: 9rem;
+    text-align: center;
+}
+.about-mid-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.about-left {
+  width: 36%;
+  height: auto;
+  /* background-color: #5e6472; */
+  /* border: 1px solid; */
+  margin-top: 2rem;
+}
+.about-right {
+  width: 55%;
+  height: auto;
+  /* background-color: #5e6472;
+  border: 1px solid; */
+  margin-left: 2rem;
+}
+.box {
+  display: flex;
+  height: 3rem;
+}
